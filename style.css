@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    align-items: center;
+
+    background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+nav {
+    background-color: aquamarine;
+    height: 2rem;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 2.8em;
+}
+
+nav .pages {
+    display: flex;
+    column-gap: 5rem;
+    font-size: 1.8rem;
+}
+
+.pages li {
+    list-style: none;
+
+}
+
+.pages li a {
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+}
+
+
